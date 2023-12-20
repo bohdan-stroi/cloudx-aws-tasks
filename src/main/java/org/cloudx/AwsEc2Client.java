@@ -19,7 +19,7 @@ import software.amazon.awssdk.services.ec2.model.Vpc;
 
 public class AwsEc2Client {
 
-  public final Ec2Client ec2 = Ec2Client.builder().build();
+  private final Ec2Client ec2 = Ec2Client.builder().build();
 
   public Instance getInstance(String nameTag) {
     return ec2.describeInstances().reservations().stream()
