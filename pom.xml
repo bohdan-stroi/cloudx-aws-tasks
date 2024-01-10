@@ -38,6 +38,11 @@
       <version>${aws.sdk.version}</version>
     </dependency>
     <dependency>
+      <groupId>software.amazon.awssdk</groupId>
+      <artifactId>rds</artifactId>
+      <version>${aws.sdk.version}</version>
+    </dependency>
+    <dependency>
       <groupId>org.junit</groupId>
       <artifactId>junit5-engine</artifactId>
       <version>5.0.0-ALPHA</version>
